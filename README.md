@@ -1,34 +1,11 @@
 # labile-proton
 
-[![NPM version][npm-image]][npm-url]
-[![build status][ci-image]][ci-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![npm download][download-image]][download-url]
+This project utilizes specialized software based on neural networks with TensorFlow to detect labile protons in proton nuclear magnetic resonance (NMR) spectra. Labile protons are those that exchange rapidly with protons in solution, and their presence can affect the accuracy of NMR analysis. The neural network model is trained on a large dataset of NMR spectra that contain both labile and non-labile protons. By analyzing the data, the model is able to identify unique patterns and features that are indicative of labile protons.
 
-.
+The project's software is designed to work with one-dimensional. The software is also flexible and can be customized to meet the specific needs of individual researchers. The use of neural networks and TensorFlow allows for the software to continuously improve its accuracy and reliability as it is exposed to more NMR data.
 
-## Installation
-
-`$ npm i labile-proton`
-
-## Usage
-
-```js
-import { myModule } from 'labile-proton';
-
-const result = myModule(args);
-// result is ...
-```
+[Open-source project (link)](https://my.cheminfo.org/?viewURL=https%3A%2F%2Fmyviews.cheminfo.org%2Fdb%2Fvisualizer%2Fentry%2Ff9c3339959c03ff7d68ef1c55d5bab4e%2Fview.json)
 
 ## License
 
 [MIT](./LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/labile-proton.svg
-[npm-url]: https://www.npmjs.com/package/labile-proton
-[ci-image]: https://github.com/jjbohorquez/labile-proton/workflows/Node.js%20CI/badge.svg?branch=main
-[ci-url]: https://github.com/jjbohorquez/labile-proton/actions?query=workflow%3A%22Node.js+CI%22
-[codecov-image]: https://img.shields.io/codecov/c/github/jjbohorquez/labile-proton.svg
-[codecov-url]: https://codecov.io/gh/jjbohorquez/labile-proton
-[download-image]: https://img.shields.io/npm/dm/labile-proton.svg
-[download-url]: https://www.npmjs.com/package/labile-proton
