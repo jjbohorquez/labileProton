@@ -5,5 +5,5 @@
  */
 export function parseCSV(data: string): number[][] {
   const lines = data.split('\n');
-  return lines.map((line) => line.split(',').map(Number))
+  return lines.map((line) => line.split(',').map(Number));
 }

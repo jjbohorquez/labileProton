@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": false,
+    "target": "ES2022",
+    "module": "ESNext" // or ES2015, ES2020
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
