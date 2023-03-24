@@ -5,9 +5,11 @@ import * as tf from '@tensorflow/tfjs-node';
 import { model } from './setup.js';
 import { parseCSV } from './utilities/parseCSV.js';
 
-// const dataPath = new URL(`../data/test_data.csv`, import.meta.url);
-// const data = readFileSync(dataPath, { encoding: 'utf8' });
-// const parsedData = parseCSV(data);
+const dataPath = new URL(`../data/test_data.csv`, import.meta.url);
+const data = readFileSync(dataPath, { encoding: 'utf8' });
+const parsedData = parseCSV(data);
+
+console.log({ i: predictLability(parsedData[2]) })
 
 export function predictLability(
   spectrum: number[],

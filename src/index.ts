@@ -3,4 +3,4 @@
  * @returns A very important number
  */
 
-export * from './predictLability.js'
+export * from './predictLability.js';
